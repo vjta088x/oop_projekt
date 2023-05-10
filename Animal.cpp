@@ -1,5 +1,6 @@
 #include "Animal.hpp"
 
+//Static obj counter used for generating unique animal id
 int Animal::obj_count = 0;
 
 Animal::Animal(string name):AbstractAnimal(){

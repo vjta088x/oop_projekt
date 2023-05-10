@@ -1,6 +1,6 @@
 #pragma once
 #include <iostream>
-
+//Truly abstract class
 using namespace std;
 class AbstractAnimal{
     protected:
@@ -9,5 +9,6 @@ class AbstractAnimal{
 
     public:
         virtual void makeSound() = 0;
+        virtual bool canFly() = 0;
 
 };

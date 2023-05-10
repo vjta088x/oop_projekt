@@ -6,3 +6,6 @@ Mammal::Mammal(bool is_cloven_hoov, int leg_count, string name):Animal(name){
 bool Mammal::isClovenHoov(){
     return this->is_cloven_hoov;
 }
+bool Mammal::canFly(){
+    return false;
+}
